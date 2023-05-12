@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "minimal-pylance-issue"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "minimal_pylance_issue"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+files = {path = "utils/package", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
